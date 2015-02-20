@@ -16,6 +16,8 @@ This analysis of the data was done for the Coursera course "Getting and Cleaning
     
 The r script in this repo completes these steps. It should be run in the directory UCI Har Dataset which should contain the data files within their respective subfolders.  The r script contains comments to explain it steps, but it follows the baisc outline of the assignment presented above. The ultimate product is a data set that includes the mean for all of the variables in the UCI study that related to the mean or standard deviation grouped by participant by activity. 
 
+The initial data files contained 10999 observations and 561 feature variables. The feature variables were reduced to 79 based on the instructions to only use the variables with the mean or standard deviation.  The 10999 observations were for all participants for all activities. Once the average for each activity per participant was taken, this reduced the rows to 180 (6 activities * 30 participants). The final data is tidy data in that each row represents one participant doing one activity and the associated measurements for that participant at that activity. 
+
 This repo contains:
 
 'README.md'
