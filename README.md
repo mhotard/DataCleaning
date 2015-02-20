@@ -19,7 +19,7 @@ The r script in this repo completes these steps. It should be run in the directo
 This repo contains:
 
 'README.md'
-'CODEBOOK.md' : explains the variables in the analysis
+'CODEBOOK.txt' : explains the variables in the analysis
 'run_analysis.R' : provides the script that pulls data from the UCI Datasets to create a tidy dataset
 
 
